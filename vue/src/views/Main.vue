@@ -10,7 +10,7 @@
     </div>
 
     <el-divider content-position="left">更多活动</el-divider>
-
+    git push -f origin master
     <el-table :data="tableData" :header-cell-style="{background:'#880000',color:'#ffffff'}" border stripe style="width: 100%">
       <el-table-column prop="date" label="日期" width="180">
         <template slot-scope="scope">
